@@ -1,0 +1,19 @@
+CONFIGURING AUTOMATIC LIGHTS:
+There are 2 IR sensors attached to the module which denote the Entry and the Exit of the room. These sensors detect the number of people in the room by detecting their movement. The difference of count at the entry and exit of the room gives the number of people in the room.
+If there are people present in the room, the light will glow. It is an automatic light system, thus there is no touch required which eliminates the need for physical contact, thus preventing the spread of virus.
+
+ALERT CONFIGURATION
+The overcrowding algorithm goes as follows:
+1. Read IR sensor activity at Entry and Exit point.
+2. Count the number of people in the room.
+3. Count if the number if less than/equal to 5.
+4. If not, send an alert using Telegram Messaging App.
+5. Wait for 60 seconds. 
+6. Repeat the process
+Telegram is a Messaging Application that uses channels to host the exchange of messages. 
+The reminder alerts users to sanitize or wash their hands after every 1 hour. For this we use the variable count.
+
+SMART APPLIANCES CONTROL
+The User Interface for Smart Appliance Control is coded in HTML. Here, we are linking the Bolt IoT JavaScript hosted on Bolt Cloud in order to use some basic functions.
+The controller controls 2 devices- the LEDs and the Buzzer
+The buzzer is used to alert users in case of overcrowding in order for them to follow the social distancing norms. Thus, in case of no overcrowding or proper following of social distancing and mask wearing norms, there is an OFF button provided to shut the Buzzer sound off.
