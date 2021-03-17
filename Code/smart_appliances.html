@@ -1,0 +1,22 @@
+*CODE FOR SMART APPLIANCE CONTROL*
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Smart Appliances Control</title>
+    <script type="text/javascript" src="https://cloud.boltiot.com/static/js/boltCommands.js"></script>
+    <script>
+    setKey('{{ApiKey}}','{{Name}}');
+    </script>
+  </head>
+  <body>
+    <center>
+    <h1>Smart Light</h1>
+    <button onclick="digitalWrite(2, 'HIGH');">HIGH</button>
+    <button onclick="analogWrite(2, '175');">MEDIUM</button>
+    <button onclick="analogWrite(2, '100');">LOW</button>
+    <button onclick="digitalWrite(2, 'LOW');">OFF</button>
+    <h1>Buzzer Alert Control</h1>
+    <button onclick="digitalWrite(0, 'LOW');">OFF</button>
+    </center>
+  </body>
+</html>
