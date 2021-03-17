@@ -1,5 +1,7 @@
 # COVID-19 Prevention Kit
 
+![Bolt Prevention Kit](https://user-images.githubusercontent.com/70434457/111500595-2d3a2300-876a-11eb-9be2-396260f694da.jpeg)
+
 Story- 
 
 As the world returns to a normal functioning, the chances of spreading of COVID-19 are increasing by the day. Thus, there is a huge need to ensure that we are taking ample amount of preventive measures and ensuring sanitation around us. This interface will help people in achieving this goal, and thus, making it safer for them to interact with the outer world, without the fear of getting infected by COVID-19.
